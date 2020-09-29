@@ -18,9 +18,13 @@ One of Morty C137's favorite phrases is "Aww Geez Man". But, in dimension Z286, 
 exists a Morty who says everything backwards.
 
 */
-
-// Include the Morty header file
+#include <iostream>
+#include <string>
+#include <sstream>
 #include "Morty.hpp"
+
+using std::string;
+using interdimensional::args;
 
 
 int main (int ac, char** av) {
@@ -36,12 +40,19 @@ int main (int ac, char** av) {
 		
 		return -1;
 	}
+	args inp = interdimensional::parseArgs(ac, av);
+	switch (inp.dim) {
+	case interdimensional::C137: 
+		C137::Morty(inp);
+		break;
+	case interdimensional::Z286:
+		Z286::Morty(inp);
+		break;
+	default:
+		std::cout << "ERROR: Unknown dimension" << std::endl;
+	}
 	
-	// Parse the command line arguments
 	
-		
-	// Depending on the dimension of the arguments, call the appropriate Morty
-	// function
 	
 	
 	return 0;
