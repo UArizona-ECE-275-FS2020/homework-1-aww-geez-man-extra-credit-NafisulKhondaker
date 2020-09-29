@@ -28,10 +28,10 @@ args interdimensional::parseArgs(int c, char** v) {
 		inp.start = atoi(*(v + 1));
 		inp.stop = atoi(*(v + 2));
 		inp.step = atoi(*(v + 3));
-		if (*(v + 3) == "C137") {
+		if (s == "C137") {
 			inp.dim = C137;
 		}
-		else if (*(v + 3) == "Z286") {
+		else if (s == "Z286") {
 			inp.dim = Z286;
 		}
 		else {
