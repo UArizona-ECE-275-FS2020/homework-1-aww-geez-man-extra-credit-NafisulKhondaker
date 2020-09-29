@@ -18,9 +18,6 @@ One of Morty C137's favorite phrases is "Aww Geez Man". But, in dimension Z286, 
 exists a Morty who says everything backwards.
 
 */
-#include <iostream>
-#include <string>
-#include <sstream>
 #include "Morty.hpp"
 
 using std::string;
