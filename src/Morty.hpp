@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 
+Extra credit below:
 namespace interdimensional {
 	enum dimension { UNKNOWN = -1, C137, Z286 };
 
