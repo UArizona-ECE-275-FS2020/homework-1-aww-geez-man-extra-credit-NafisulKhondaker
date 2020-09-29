@@ -1,11 +1,6 @@
-/* 
- __  __            _                                
-|  \/  | ___  _ __| |_ _   _        ___ _ __  _ __  
-| |\/| |/ _ \| '__| __| | | |      / __| '_ \| '_ \ 
-| |  | | (_) | |  | |_| |_| |  _  | (__| |_) | |_) |
-|_|  |_|\___/|_|   \__|\__, | (_)  \___| .__/| .__/ 
-                       |___/           |_|   |_|  
-*/
+//Nafisul Khondaker
+//9.28.2020
+
 #include "Morty.hpp"
 
 using std::cout;
@@ -63,6 +58,7 @@ void C137::Morty(args x) {
 		}
 	}
 }
+
 void Z286::Morty(args x) {
 	cout << "Morty Z286 says:" << endl;
 	for (int i = x.start; i <= x.stop; i += x.step) {
