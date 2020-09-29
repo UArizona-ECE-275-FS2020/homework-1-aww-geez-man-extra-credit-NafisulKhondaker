@@ -9,10 +9,7 @@
 
 #include <iostream>
 #include <string>
-#include <sstream>
 
-
-Extra credit below:
 namespace interdimensional { 
 	// Declare enumeration to hold the dimensions each Morty is from
 	enum dimension {UNKNOWN = -1, C137, Z286};
